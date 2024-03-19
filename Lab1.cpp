@@ -24,7 +24,6 @@ int main()
         cout << "Периметр прямоугольника: " << perimeter << endl;
         cout << "Площадь прямоугольника: " << area << endl;
         cout << "Длина диагонали прямоугольника: " << diagonalLength << endl;
-
     }
     else if (number == 2)
     {
