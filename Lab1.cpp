@@ -10,7 +10,21 @@ int main()
     cin >> number;
     if (number == 1)
     {
-        // Прямоугольник тут
+        double width, height;
+
+        cout << "Введите ширину прямоугольника: ";
+        cin >> width;
+        cout << "Введите высоту прямоугольника: ";
+        cin >> height;
+
+        double perimeter = 2 * (width + height);
+        double area = width * height;
+        double diagonalLength = sqrt(width * width + height * height);
+
+        cout << "Периметр прямоугольника: " << perimeter << endl;
+        cout << "Площадь прямоугольника: " << area << endl;
+        cout << "Длина диагонали прямоугольника: " << diagonalLength << endl;
+
     }
     else if (number == 2)
     {
